@@ -4,6 +4,10 @@ version := "0.1.0-M4-SNAPSHOT"
 
 play.Project.playScalaSettings
 
+ScoverageSbtPlugin.instrumentSettings
+
+CoverallsPlugin.coverallsSettings
+
 libraryDependencies ++= Seq(
   jdbc,
   anorm,
